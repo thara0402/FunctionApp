@@ -1,7 +1,9 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "QueueConnection": "UseDevelopmentStorage=true",
+    "SqlConnection": "data source=localhost\\sqlexpress;initial catalog=Shop;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
 }
